@@ -10,7 +10,7 @@ body {
 }
 
 .background-container {
-    display: felx;
+    display: flex;
     flex: 1;
     margin: auto;
 }
@@ -27,6 +27,21 @@ body {
 }
 
 .submit-button {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.submit-button::after {
     content: "";
     background-color: #ffe54c;
     width: 100%;
